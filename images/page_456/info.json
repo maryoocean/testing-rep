@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 32,
+    "height" : 55
+  }, {
+    "width" : 63,
+    "height" : 109
+  }, {
+    "width" : 125,
+    "height" : 217
+  }, {
+    "width" : 250,
+    "height" : 433
+  }, {
+    "width" : 499,
+    "height" : 865
+  }, {
+    "width" : 997,
+    "height" : 1730
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 997,
+  "@id" : "https://maryoocean.github.io/testing-rep/images/page_456",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1730
+}
