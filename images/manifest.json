@@ -1,0 +1,66 @@
+{
+  "id" : "https://maryoocean.github.io/testing-rep/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in maryoocean/testing-rep project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 978,
+    "id" : "https://maryoocean.github.io/testing-rep/images/page_455/canvas/",
+    "label" : {
+      "none" : [ "page_455" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://maryoocean.github.io/testing-rep/images/page_455/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://maryoocean.github.io/testing-rep/images/page_455/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 31,
+              "height" : 55
+            }, {
+              "width" : 62,
+              "height" : 109
+            }, {
+              "width" : 123,
+              "height" : 217
+            }, {
+              "width" : 245,
+              "height" : 434
+            }, {
+              "width" : 489,
+              "height" : 868
+            }, {
+              "width" : 978,
+              "height" : 1736
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 978,
+            "@id" : "https://maryoocean.github.io/testing-rep/images/page_455",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1736
+          } ],
+          "format" : "image/jpeg",
+          "width" : 978,
+          "id" : "https://maryoocean.github.io/testing-rep/images/page_455/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1736
+        },
+        "target" : "https://maryoocean.github.io/testing-rep/images/page_455/canvas/"
+      } ]
+    } ],
+    "height" : 1736
+  } ]
+}
