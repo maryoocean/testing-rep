@@ -1,0 +1,43 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Soup",
+      "@type" : "oa:Tag",
+      "chars" : "Soup"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "La zuppa",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p><strong>La zuppa</strong></p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/31654726",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2024-04-18T08:12:48",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1713427967501",
+    "dcterms:modified" : "2024-04-18T08:12:48",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://maryoocean.github.io/testing-rep/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=228,717,114,44"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M227.81452,716.56033h56.89443v0h56.89443v22.08298v22.08298h-56.89443h-56.89443v-22.08298z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_283868b7-bb97-43c0-8a65-31c4641d5a19\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://e0d4ed8d-5b2a-46ed-96d7-b1d44ecd333c"
+    } ]
+  } ],
+  "@id" : "https://maryoocean.github.io/testing-rep/annotations/4d6e96ec8e5410ca1bcaf923fd16144f.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
