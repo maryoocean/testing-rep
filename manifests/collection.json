@@ -1,0 +1,13 @@
+{
+  "id" : "https://maryoocean.github.io/testing-rep/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in maryoocean/testing-rep project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://maryoocean.github.io/testing-rep/manifests/manifest.json",
+    "label" : "Goldoni's Gusto, Il Servitore di Due Padroni"
+  } ]
+}
