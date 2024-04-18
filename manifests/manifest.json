@@ -1,104 +1,125 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://maryoocean.github.io/testing-rep/manifests/manifest.json",
-  "@type" : "sc:Manifest",
-  "label" : "Goldoni's Gusto, Il Servitore di Due Padroni",
-  "metadata" : [ ],
-  "description" : [ {
-    "@value" : "Scene XII, Act II",
-    "@language" : "en"
-  } ],
-  "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "Carlo Goldoni ",
-  "sequences" : [ {
-    "@id" : "http://bb941a5d-9600-4832-a848-7919051b41ab",
-    "@type" : "sc:Sequence",
-    "label" : "Normal Sequence",
-    "canvases" : [ {
-      "@id" : "http://3480c803-56fa-4fcf-b8c6-b54606076ae2",
-      "@type" : "sc:Canvas",
-      "label" : "Act II, Scene XII, Page 447",
-      "height" : 1736,
-      "width" : 978,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://8279cae2-c671-4d82-bec1-da4d61c2a7ca",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://maryoocean.github.io/testing-rep/images/page_455/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://maryoocean.github.io/testing-rep/images/page_455",
-            "profile" : "http://iiif.io/api/image/2/level0.json"
-          },
-          "height" : 1736,
-          "width" : 978
-        },
-        "on" : "http://3480c803-56fa-4fcf-b8c6-b54606076ae2"
-      } ],
-      "related" : [ ]
-    }, {
-      "@id" : "http://e0d4ed8d-5b2a-46ed-96d7-b1d44ecd333c",
-      "@type" : "sc:Canvas",
-      "label" : "Act II, Scene XII, Page 448",
-      "height" : 1730,
-      "width" : 997,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://581b9ecc-d56d-4ccf-84ff-47e11934c8da",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://maryoocean.github.io/testing-rep/images/page_456/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://maryoocean.github.io/testing-rep/images/page_456",
-            "profile" : "http://iiif.io/api/image/2/level0.json"
-          },
-          "height" : 1730,
-          "width" : 997
-        },
-        "on" : "http://e0d4ed8d-5b2a-46ed-96d7-b1d44ecd333c"
-      } ]
-    }, {
-      "@id" : "http://fb4f8928-0a5b-473f-af97-f9c8c86990bf",
-      "@type" : "sc:Canvas",
-      "label" : "Act II, Scene XII, Page 449",
-      "height" : 1719,
-      "width" : 981,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://92a631f5-7127-4f4c-8ac9-a7cbaecfe0ab",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://maryoocean.github.io/testing-rep/images/page_457/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://maryoocean.github.io/testing-rep/images/page_457",
-            "profile" : "http://iiif.io/api/image/2/level0.json"
-          },
-          "height" : 1719,
-          "width" : 981
-        },
-        "on" : "http://fb4f8928-0a5b-473f-af97-f9c8c86990bf"
-      } ]
-    } ]
-  } ],
-  "structures" : [ ],
-  "thumbnail" : {
-    "@id" : "http://3480c803-56fa-4fcf-b8c6-b54606076ae2"
-  },
-  "related" : {
-    "@id" : "https://gutenberg.ca/ebooks/goldonident-twomasters/goldonident-twomasters-00-h.html",
-    "label" : "The Servant of Two Masters, English First Edition (Act II, Scene II) "
-  },
-  "viewingDirection" : "left-to-right"
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://maryoocean.github.io/testing-rep/manifests/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Goldoni's Gusto, Il Servitore di Due Padroni",
+    "metadata": [],
+    "description": [
+        {
+            "@value": "Scene XII, Act II",
+            "@language": "en"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "attribution": "Carlo Goldoni ",
+    "sequences": [
+        {
+            "@id": "http://bb941a5d-9600-4832-a848-7919051b41ab",
+            "@type": "sc:Sequence",
+            "label": "Normal Sequence",
+            "canvases": [
+                {
+                    "@id": "http://3480c803-56fa-4fcf-b8c6-b54606076ae2",
+                    "@type": "sc:Canvas",
+                    "label": "Act II, Scene XII, Page 447",
+                    "height": 1736,
+                    "width": 978,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "http://8279cae2-c671-4d82-bec1-da4d61c2a7ca",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://maryoocean.github.io/testing-rep/images/page_455/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://maryoocean.github.io/testing-rep/images/page_455",
+                                    "profile": "http://iiif.io/api/image/2/level0.json"
+                                },
+                                "height": 1736,
+                                "width": 978
+                            },
+                            "on": "http://3480c803-56fa-4fcf-b8c6-b54606076ae2"
+                        }
+                    ],
+                    "related": []
+                },
+                {
+                    "@id": "http://e0d4ed8d-5b2a-46ed-96d7-b1d44ecd333c",
+                    "@type": "sc:Canvas",
+                    "label": "Act II, Scene XII, Page 448",
+                    "height": 1730,
+                    "width": 997,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "http://581b9ecc-d56d-4ccf-84ff-47e11934c8da",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://maryoocean.github.io/testing-rep/images/page_456/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://maryoocean.github.io/testing-rep/images/page_456",
+                                    "profile": "http://iiif.io/api/image/2/level0.json"
+                                },
+                                "height": 1730,
+                                "width": 997
+                            },
+                            "on": "http://e0d4ed8d-5b2a-46ed-96d7-b1d44ecd333c"
+                        }
+                    ]
+                },
+                {
+                    "@id": "http://fb4f8928-0a5b-473f-af97-f9c8c86990bf",
+                    "@type": "sc:Canvas",
+                    "label": "Act II, Scene XII, Page 449",
+                    "height": 1719,
+                    "width": 981,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "http://92a631f5-7127-4f4c-8ac9-a7cbaecfe0ab",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://maryoocean.github.io/testing-rep/images/page_457/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://maryoocean.github.io/testing-rep/images/page_457",
+                                    "profile": "http://iiif.io/api/image/2/level0.json"
+                                },
+                                "height": 1719,
+                                "width": 981
+                            },
+                            "on": "http://fb4f8928-0a5b-473f-af97-f9c8c86990bf"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "otherContent": [
+        {
+            "@id": "https://maryoocean.github.io/testing-rep/annotations/4d6e96ec8e5410ca1bcaf923fd16144f.json",
+            "@type": "sc:AnnotationList",
+            "label": "My fantastic annotations"
+        }
+    ],
+    "structures": [],
+    "thumbnail": {
+        "@id": "http://3480c803-56fa-4fcf-b8c6-b54606076ae2"
+    },
+    "related": {
+        "@id": "https://gutenberg.ca/ebooks/goldonident-twomasters/goldonident-twomasters-00-h.html",
+        "label": "The Servant of Two Masters, English First Edition (Act II, Scene II) "
+    },
+    "viewingDirection": "left-to-right"
 }
