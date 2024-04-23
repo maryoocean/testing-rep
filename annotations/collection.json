@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://maryoocean.github.io/testing-rep/annotations/4d6e96ec8e5410ca1bcaf923fd16144f.json" ],
+  "otherContent" : [ "https://maryoocean.github.io/testing-rep/annotations/4d6e96ec8e5410ca1bcaf923fd16144f.json", "https://maryoocean.github.io/testing-rep/annotations/b1203cba63f06d895c435b37fb02b800.json" ],
   "@id" : "https://maryoocean.github.io/testing-rep/annotations/collection.json",
   "label" : "All annotations loaded in maryoocean/testing-rep project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
